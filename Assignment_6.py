@@ -125,4 +125,5 @@ for item_data in buttons_data:
     btn = tk.Button(root, text=button_text, font=buttons_font, padx=20, pady=20, command=command_func)
     btn.grid(row=r, column=c, columnspan= column_span, padx=5, pady=5, sticky="nsew"  )
 
+#Mainloop
 root.mainloop()
